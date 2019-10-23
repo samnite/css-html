@@ -45,6 +45,11 @@ p {
   color: #fff;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
 .m-heading {
   font-size: 2rem;
   margin-bottom: 0.75rem;
@@ -55,6 +60,16 @@ p {
   font-size: 4rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
+}
+
+.list {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #444 dotted 1px;
 }
 
 .lead {
@@ -88,6 +103,16 @@ p {
 }
 .py-3 {
   padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
 }
 
 /*Navbar*/
@@ -174,4 +199,39 @@ p {
 
 #who .who-img {
   background: url('../img/people.jpg') no-repeat center center/cover;
+}
+
+/*Clients*/
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+/*Section: Contact*/
+#contact {
+  display: flex;
+}
+
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
