@@ -36,3 +36,7 @@ $('#navbar a, .btn').on('click', function(event) {
     );
   }
 });
+
+// Enter current Year in copyright span
+const date = new Date().getFullYear();
+document.querySelector('.cur-date').textContent = date.toString();

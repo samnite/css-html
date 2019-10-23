@@ -6,6 +6,7 @@
   "author": "Alexander Gribenchenko <samnite87@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "eslint-config-prettier": "^6.4.0",
     "prettier": "^1.18.2"
   },
   "prettier": {
