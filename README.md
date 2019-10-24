@@ -1,6 +1,11 @@
 <!-- prettier-ignore -->
-**Online links**:
+##Projects (full layout):
 
-###https://samnite.github.io/css-html/hotel - _Hotel_
+- [Hotel website](https://samnite.github.io/css-html/hotel)
+- [EdgeLedger website](https://samnite.github.io/css-html/EdgeLedger)
+- [News website]
+- [Portfolio website]
 
-###https://samnite.github.io/css-html/EdgeLedger/ - _EdgeLedger_
+###Mini-projects:
+
+- [Presentation](https://samnite.github.io/css-html/mini-projects/presentation)
