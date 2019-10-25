@@ -8,4 +8,5 @@
 
 ### Mini-projects:
 
-- [Presentation](https://samnite.github.io/css-html/mini-projects/presentation)
+- [Presentation](https://samnite.github.io/css-html/mini-projects/presentation) (not mobile)
+- [Menu overlay](https://samnite.github.io/css-html/mini-projects/hamburger-menu)
