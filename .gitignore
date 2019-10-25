@@ -2,3 +2,4 @@
 node_modules/
 .idea/
 EdgeLedger/img/logos/.DS_Store
+!/yarn-error.log

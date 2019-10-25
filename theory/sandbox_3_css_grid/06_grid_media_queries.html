@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Media queries</title>
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 1rem;
+      }
+
+      @media (max-width: 768px) {
+        .grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (max-width: 500px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="item">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem excepturi, magnam nesciunt placeat tempore!
+        </p>
+      </div>
+      <div class="item">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem excepturi, magnam nesciunt placeat tempore!
+        </p>
+      </div>
+      <div class="item">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem excepturi, magnam nesciunt placeat tempore!
+        </p>
+      </div>
+      <div class="item">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem excepturi, magnam nesciunt placeat tempore!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
