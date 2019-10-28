@@ -3,7 +3,7 @@
 
 - [Hotel website](https://samnite.github.io/css-html/hotel) --- [[src](https://github.com/samnite/css-html/tree/master/hotel)]
 - [EdgeLedger website](https://samnite.github.io/css-html/EdgeLedger) --- [[src](https://github.com/samnite/css-html/tree/master/EdgeLedger)]
-- [NewsGrid website](https://samnite.github.io/css-html/NewsGrid) --- [[src](https://github.com/samnite/css-html/tree/master/NewsGrid)
+- [NewsGrid website](https://samnite.github.io/css-html/NewsGrid) --- [[src](https://github.com/samnite/css-html/tree/master/NewsGrid)]
 - [Portfolio website]
 
 ### Mini-projects:
