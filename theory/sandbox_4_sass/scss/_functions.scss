@@ -9,7 +9,7 @@
 
 // Transform mixin
 @mixin transform($property) {
-  --webkit-transorm: $property;
+  --webkit-transform: $property;
   --ms-transform: $property;
   transform: $property;
 }
