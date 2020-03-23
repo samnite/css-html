@@ -6,7 +6,8 @@
   "author": "Alexander Gribenchenko <samnite87@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "sass": "node-sass -w ./theory/sandbox_4_sass/scss/ -o ./theory/sandbox_4_sass/dist/css --recursive"
+    "sass": "node-sass -w ./theory/sandbox_4_sass/scss/ -o ./theory/sandbox_4_sass/dist/css --recursive",
+    "portfolio-modern": "node-sass -w ./portfolio-modern/scss/ -o ./portfolio-modern/dist/css/ --recursive"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
