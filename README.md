@@ -5,6 +5,7 @@
 - [EdgeLedger website](https://samnite.github.io/css-html/EdgeLedger) --- [[src](https://github.com/samnite/css-html/tree/master/EdgeLedger)]
 - [NewsGrid website](https://samnite.github.io/css-html/NewsGrid) --- [[src](https://github.com/samnite/css-html/tree/master/NewsGrid)]
 - [Portfolio website](https://samnite.github.io/css-html/Portfolio/dist) --- [[src](https://github.com/samnite/css-html/tree/master/Portfolio)]
+- [Portfolio-modern website](https://samnite.github.io/css-html/portfolio-modern/dist) --- [[src](https://github.com/samnite/css-html/tree/master/portfolio-modern)]
 
 ### Mini-projects:
 
