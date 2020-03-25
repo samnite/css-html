@@ -13,3 +13,4 @@
 - [Menu overlay](https://samnite.github.io/css-html/mini-projects/hamburger-menu) --- [[src](https://github.com/samnite/css-html/tree/master/mini-projects/hamburger-menu)]
 - [Knowledge Timeline](https://samnite.github.io/css-html/mini-projects/knowledge_resume) --- [[src](https://github.com/samnite/css-html/tree/master/mini-projects/knowledge_resume)]
 - [Dropdown menu](https://samnite.github.io/css-html/mini-projects/dropdown-menu) --- [[src](https://github.com/samnite/css-html/tree/master/mini-projects/dropdown-menu)]
+- [Gradient Box](https://samnite.github.io/css-html/mini-projects/gradient) --- [[src](https://github.com/samnite/css-html/tree/master/mini-projects/gradient)]
