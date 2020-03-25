@@ -31,7 +31,6 @@ body {
     @media all and (max-width: 600px) {
       right: 10%;
       bottom: -10%;
-
     }
   }
   &:before,
@@ -46,18 +45,18 @@ body {
       45deg,
       #fb0094,
       #0000ff,
-      #00ff00,
+      #009600,
       #ffff00,
       #ff0000,
       #fb0094,
       #0000ff,
-      #00ff00,
+      #009600,
       #ffff00,
       #ff0000
     );
     background-size: 500%;
     z-index: -1;
-    animation: animate 30s ease infinite;
+    animation: animate 30s ease-out infinite;
   }
   &:after {
     filter: blur(25px);
