@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dosis&display=swap");
-*:root {
+h1 {
+  color: rgba(255, 241, 241, 0.5);
+}
+
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -13,10 +18,12 @@ body {
   position: absolute;
   width: 100%;
   height: 1061px;
-  background: linear-gradient(360deg, rgba(255, 241, 241, 0.5) 0%, rgba(255, 241, 241, 0) 108.69%);
+  background: linear-gradient(#FFF1F4, #fff);
 }
 #main-header .nav {
   display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
   margin-left: 12.5%;
   margin-right: 12.5%;
 }
@@ -28,14 +35,48 @@ body {
   width: 63px;
   height: 63px;
 }
-#main-header .nav-logo p {
+#main-header .nav-logo h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 19px;
-  line-height: 25px;
   text-transform: uppercase;
   color: #035755;
   margin-left: 14px;
+}
+#main-header .nav-menu {
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+#main-header .nav-menu a {
+  color: #035755;
+  text-decoration: none;
+}
+#main-header .nav-menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+#main-header .nav-menu ul li {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+#main-header .nav-menu ul li:nth-child(1) a {
+  color: #FB4C47;
+}
+#main-header .nav-menu ul li:nth-child(5) a {
+  padding: 15px 45px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: #FB4C47 2px solid;
+  color: #FB4C47;
+}
+
+.test img {
+  display: flex;
+  width: 55%;
+  align-self: end;
 }
 
 /*# sourceMappingURL=index.css.map */

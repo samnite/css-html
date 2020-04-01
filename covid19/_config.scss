@@ -3,11 +3,15 @@
 
 $primary-color: #FB4C47;
 $secondary-color: #FA5652;
-$background: linear-gradient(360deg, rgba(255, 241, 241, 0.5) 0%, rgba(255, 241, 241, 0) 108.69%);
+//$background: linear-gradient(360deg, rgba(255, 241, 241, 0.5) 0%, rgba(255, 241, 241, 0) 108.69%);
+$background: linear-gradient(#FFF1F4, #fff);
 
 @mixin primaryFont {
   font-family: 'Red Hat Display', sans-serif;
 }
 @mixin secondaryFont {
   font-family: 'Dosis', sans-serif;
+}
+h1{
+  color: rgba(255, 241, 241, 0.5);
 }
