@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap'); // Red Hat Display Font
-@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap'); // Dosis Font
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,500,700&display=swap'); // Red Hat Display Font
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,600,700&display=swap'); // Dosis Font
 
 $primary-color: #FB4C47;
 $secondary-color: #FA5652;
@@ -14,4 +14,29 @@ $background: linear-gradient(#FFF1F4, #fff);
 }
 h1{
   color: rgba(255, 241, 241, 0.5);
+}
+
+// Media Query Mixins
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXl {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
 }

@@ -73,10 +73,54 @@ body {
   }
 }
 
-.test {
-  img {
-    display: flex;
-    width: 55%;
-    align-self: end;
+.alert {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12.5%;
+  &-image {
+    margin-left: auto;
+    img {
+      height: 800px;
+    }
+  }
+  &-text {
+    h3 {
+      font-size: 32px;
+      color: $primary-color;
+      font-weight: bold;
+    }
+    h1 {
+      font-weight: bold;
+      color: #035755;
+      font-size: 52px;
+      margin-bottom: 30px;
+    }
+    p {
+      color: #4B4F51;
+      font-size: 24px;
+      margin-bottom: 54px;
+
+    }
   }
 }
+
+.btn {
+  &-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background: $primary-color;
+    width: 250px;
+    height: 80px;
+  }
+}
+
+
+@import "mobile";
