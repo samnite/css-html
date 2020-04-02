@@ -3,7 +3,6 @@
 
 $primary-color: #FB4C47;
 $secondary-color: #FA5652;
-//$background: linear-gradient(360deg, rgba(255, 241, 241, 0.5) 0%, rgba(255, 241, 241, 0) 108.69%);
 $background: linear-gradient(#FFF1F4, #fff);
 
 @mixin primaryFont {
@@ -26,11 +25,12 @@ h1{
 @mixin mediaMd {
   @media screen and (max-width: 768px) {
     @content;
+    // need to change!
   }
 }
 
 @mixin mediaLg {
-  @media screen and (min-width: 769px) and (max-width: 1170px) {
+  @media screen and (min-width: 769px) and (max-width: 1470px) {
     @content;
   }
 }
