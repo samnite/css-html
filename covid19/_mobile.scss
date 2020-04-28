@@ -10,6 +10,7 @@
   p {
     font-size: 24px;
     margin-bottom: 45px;
+    line-height: 140%;
   }
 }
 
@@ -18,6 +19,13 @@
     font-size: 32px;
     margin-bottom: 5px;
   }
+}
+
+@mixin btn {
+  font-size: 16px;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 20px;
 }
 
 @include mediaLg {
@@ -29,16 +37,27 @@
     }
     &-text {
       @include infoBlockLg;
-
     }
   }
 
-  .what-is {
-    &-text {
-      @include infoBlockLg;
+  #what-is-covid {
+    .what-is {
+      &-text {
+        @include infoBlockLg;
+        margin-top: 35px;
+      }
+      &-image {
+        img {
+          height: 550px;
+        }
+      }
+      &-microbe-image {
+        img {
+          height: 450px;
+        }
+      }
     }
   }
-
 
   .btn {
     &-primary {
@@ -54,12 +73,17 @@
     .nav {
       flex-direction: column;
       align-items: center;
+      &-logo {
+        margin-top: 15px;
+      }
       &-menu {
+        margin-top: 0px;
         ul {
           flex-direction: column;
           li {
-            margin: 4px;
+            margin: 2px;
             &:nth-child(5) {
+              margin-top: 10px;
               a {
                 padding: 5px 25px;
               }
@@ -87,46 +111,41 @@
       @include infoBlockMd;
       p {
         margin-bottom: 15px;
+        line-height: 140%;
       }
     }
   }
-
-  .what-is {
-    &-text {
-      @include infoBlockMd;
+  #what-is-covid {
+    margin-left: 5px;
+    margin-right: 5px;
+    .what-is {
+      flex-direction: column;
+      margin-top: 20px;
+      margin-left: 5px;
+      &-text {
+        @include infoBlockMd;
+        margin: 0 auto;
+        text-align: center;
+        p {
+          margin-bottom: 15px;
+        }
+      }
+      &-image {
+        display: none;
+      }
+      &-microbe-image {
+        display: none;
+      }
+      &-btn {
+        @include btn;
+        margin: 0 auto;
+      }
     }
   }
 
   .btn {
     &-primary {
-      font-size: 16px;
-      width: 150px;
-      height: 40px;
-      margin-bottom: 20px;
+      @include btn;
     }
   }
 }
-
-//@include mediaXl {
-//  .alert {
-//    &-image {
-//      img {
-//        height: 450px;
-//      }
-//    }
-//    &-text {
-//      h3 {
-//        font-size: 26px;
-//        margin-bottom: 10px;
-//      }
-//      h1 {
-//        font-size: 32px;
-//        margin-bottom: 20px;
-//      }
-//      p {
-//        font-size: 24px;
-//        margin-bottom: 45px;
-//      }
-//    }
-//  }
-//}
