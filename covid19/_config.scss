@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,500,700&display=swap'); // Red Hat Display Font
 @import url('https://fonts.googleapis.com/css?family=Dosis:400,500,600,700&display=swap'); // Dosis Font
 
-$primary-color: #FB4C47;
-$secondary-color: #FA5652;
-$background: linear-gradient(#FFF1F4, #fff);
+$primary-color: #fb4c47;
+$secondary-color: #fa5652;
+$background: linear-gradient(#fff1f4, #fff);
 
 @mixin primaryFont {
   font-family: 'Red Hat Display', sans-serif;
@@ -11,8 +11,37 @@ $background: linear-gradient(#FFF1F4, #fff);
 @mixin secondaryFont {
   font-family: 'Dosis', sans-serif;
 }
-h1{
+h1 {
   color: rgba(255, 241, 241, 0.5);
+}
+
+@mixin container {
+  display: flex;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+@mixin infoBlock {
+  h3 {
+    font-size: 32px;
+    color: $primary-color;
+    font-weight: bold;
+  }
+  h1 {
+    font-weight: bold;
+    color: #035755;
+    font-size: 52px;
+    margin-bottom: 30px;
+  }
+  p {
+    color: #4b4f51;
+    font-size: 24px;
+    margin-bottom: 54px;
+  }
+}
+
+@mixin secondaryHeader {
+
 }
 
 // Media Query Mixins
