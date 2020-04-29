@@ -124,6 +124,57 @@ body {
   }
 }
 
+#contagion {
+  margin-top: 50px;
+  .contagion {
+    &-text {
+      @include infoBlock;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      width: 33%;
+      p {
+        text-align: center;
+      }
+    }
+    &-transmission {
+      display: flex;
+      flex-direction: row;
+      width: 70%;
+      margin: 0 auto;
+      &-card {
+        display: flex;
+        cursor: pointer;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        width: 33.33%;
+        margin: 20px;
+        text-align: center;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1),
+          0 10px 10px rgba(0, 0, 0, 0.08);
+        @include infoBlock;
+        h1 {
+          font-size: 32px;
+          margin-top: 52px;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 18px;
+        }
+        img {
+          margin: 70px 15px 15px;
+        }
+      }
+      &-card:hover {
+        border-bottom: 4px solid $secondary-color;
+      }
+    }
+  }
+}
+
 .btn {
   &-primary {
     @include btn;

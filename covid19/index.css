@@ -168,6 +168,86 @@ body {
   color: #fa5652;
 }
 
+#contagion {
+  margin-top: 50px;
+}
+#contagion .contagion-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 33%;
+}
+#contagion .contagion-text h3 {
+  font-size: 32px;
+  color: #fb4c47;
+  font-weight: bold;
+}
+#contagion .contagion-text h1 {
+  font-weight: bold;
+  color: #035755;
+  font-size: 52px;
+  margin-bottom: 30px;
+}
+#contagion .contagion-text p {
+  color: #4b4f51;
+  font-size: 24px;
+  margin-bottom: 54px;
+  line-height: 215%;
+}
+#contagion .contagion-text p {
+  text-align: center;
+}
+#contagion .contagion-transmission {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto;
+}
+#contagion .contagion-transmission-card {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 33.33%;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.08);
+}
+#contagion .contagion-transmission-card h3 {
+  font-size: 32px;
+  color: #fb4c47;
+  font-weight: bold;
+}
+#contagion .contagion-transmission-card h1 {
+  font-weight: bold;
+  color: #035755;
+  font-size: 52px;
+  margin-bottom: 30px;
+}
+#contagion .contagion-transmission-card p {
+  color: #4b4f51;
+  font-size: 24px;
+  margin-bottom: 54px;
+  line-height: 215%;
+}
+#contagion .contagion-transmission-card h1 {
+  font-size: 32px;
+  margin-top: 52px;
+  margin-bottom: 20px;
+}
+#contagion .contagion-transmission-card p {
+  font-size: 18px;
+}
+#contagion .contagion-transmission-card img {
+  margin: 70px 15px 15px;
+}
+#contagion .contagion-transmission-card:hover {
+  border-bottom: 4px solid #fa5652;
+}
+
 .btn-primary {
   display: flex;
   justify-content: center;
@@ -220,6 +300,26 @@ body {
   }
   #what-is-covid .what-is-microbe-image img {
     height: 450px;
+  }
+
+  #contagion .contagion-text h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  #contagion .contagion-text h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  #contagion .contagion-text p {
+    font-size: 24px;
+    margin-bottom: 45px;
+    line-height: 140%;
+  }
+  #contagion .contagion-transmission {
+    width: 85%;
+  }
+  #contagion .contagion-transmission-card {
+    margin: 10px;
   }
 
   .btn-primary {
@@ -308,6 +408,30 @@ body {
     height: 40px;
     margin-bottom: 20px;
     margin: 0 auto;
+  }
+
+  #contagion .contagion-text {
+    width: 100%;
+  }
+  #contagion .contagion-text h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  #contagion .contagion-text p {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  #contagion .contagion-transmission {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  #contagion .contagion-transmission-card {
+    width: 95%;
+    margin: 2px;
+  }
+  #contagion .contagion-transmission-card h1 {
+    margin-top: 10px;
   }
 
   .btn-primary {
