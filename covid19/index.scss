@@ -197,6 +197,55 @@ body {
     }
   }
 }
+#what-do {
+  .what-do {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 115px;
+    &-text {
+      @include infoBlock;
+      width: 33%;
+    }
+    &-recommend {
+      display: grid;
+      grid-template-areas:
+        'text1 image1'
+        'image2 text2'
+        'text3 image3'
+        'image4 text4';
+      grid-gap: 3rem 1rem;
+      justify-content: center;
+      align-items: center;
+
+      $blocks: (1, 2, 3, 4);
+      @each $number in $blocks {
+        &-text#{$number} {
+          grid-area: text#{$number};
+          width: 70%;
+          margin: 0 auto;
+          @include infoBlock;
+          &-head {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            h1 {
+              margin: 0 0 0 4%;
+            }
+          }
+          p {
+            text-align: left;
+            margin-left: 17%;
+          }
+        }
+        &-image#{$number} {
+          grid-area: image#{$number};
+        }
+      }
+    }
+  }
+}
 
 .btn {
   &-primary {
