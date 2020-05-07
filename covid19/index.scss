@@ -176,6 +176,28 @@ body {
   }
 }
 
+#symptoms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+  .symptoms {
+    &-text {
+      @include infoBlock;
+      width: 33%;
+      p {
+        margin-bottom: 0;
+      }
+    }
+    &-image {
+      img {
+        height: 800px;
+      }
+    }
+  }
+}
+
 .btn {
   &-primary {
     @include btn;
