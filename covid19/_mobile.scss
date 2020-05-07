@@ -92,6 +92,26 @@
     }
   }
 
+  #what-do {
+    .what-do {
+      &-text {
+        width: 50%;
+        @include infoBlockLg;
+      }
+      &-recommend {
+        h1 {
+          font-size: 38px;
+        }
+        h2 {
+          font-size: 34px;
+        }
+        img {
+          height: 400px;
+        }
+      }
+    }
+  }
+
   .btn {
     &-primary {
       font-size: 18px;
@@ -110,7 +130,7 @@
         margin-top: 15px;
       }
       &-menu {
-        margin-top: 0px;
+        margin-top: 0;
         ul {
           flex-direction: column;
           li {
@@ -216,6 +236,40 @@
         img {
           width: 100%;
           height: unset;
+        }
+      }
+    }
+  }
+
+  #what-do {
+    .what-do {
+      &-text {
+        width: 98%;
+        @include infoBlockMd;
+      }
+      &-recommend {
+        width: 98%;
+        grid-template-areas:
+          'text1'
+          'image1'
+          'text2'
+          'image2'
+          'text3'
+          'image3'
+          'text4'
+          'image4';
+        p {
+          margin: 0 auto;
+          text-align: center;
+        }
+        h1 {
+          font-size: 32px;
+        }
+        h2 {
+          font-size: 24px;
+        }
+        img {
+          width: 99%;
         }
       }
     }

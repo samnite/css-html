@@ -218,12 +218,12 @@ body {
       grid-gap: 3rem 1rem;
       justify-content: center;
       align-items: center;
+      width: 80%;
 
       $blocks: (1, 2, 3, 4);
       @each $number in $blocks {
         &-text#{$number} {
           grid-area: text#{$number};
-          width: 70%;
           margin: 0 auto;
           @include infoBlock;
           &-head {
@@ -232,6 +232,10 @@ body {
             align-items: center;
             h1 {
               margin: 0 0 0 4%;
+              font-size: 47px;
+            }
+            @media screen and (max-width: 768px) {
+              justify-content: center;
             }
           }
           p {
