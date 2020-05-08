@@ -7,6 +7,7 @@
 
 body {
   @include primaryFont;
+  background: linear-gradient(#fff, #fff1f4);
 }
 
 #main-header {
@@ -246,6 +247,45 @@ body {
         &-image#{$number} {
           grid-area: image#{$number};
         }
+      }
+    }
+  }
+}
+
+#question {
+  .question {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    &-text {
+      @include infoBlock;
+      width: 33%;
+      text-align: center;
+    }
+    &-input {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      input {
+        height: 115px;
+        width: 800px;
+        border-radius: 60px;
+        border: none;
+        padding-left: 40px;
+        font-size: 42px;
+        color: #758681;
+        @include secondaryFont;
+        &::placeholder {
+          color: #758681;
+          font-size: 32px;
+        }
+      }
+      button {
+        margin-left: -270px;
+        border: none;
       }
     }
   }

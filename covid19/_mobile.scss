@@ -111,6 +111,32 @@
     }
   }
 
+  #question {
+    .question {
+      margin-top: 100px;
+      &-text {
+        h1 {
+          font-size: 38px;
+        }
+      }
+      &-input {
+        margin-top: 20px;
+        input {
+          height: 70px;
+          width: 650px;
+          font-size: 32px;
+          &::placeholder {
+            font-size: 28px;
+          }
+        }
+        button {
+          margin-left: -160px;
+          width: 150px;
+        }
+      }
+    }
+  }
+
   .btn {
     &-primary {
       font-size: 18px;
